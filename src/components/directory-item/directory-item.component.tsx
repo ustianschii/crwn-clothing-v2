@@ -1,10 +1,11 @@
+import { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
-
 import {
   BackgroundImage,
   Body,
   DirectoryItemContainer,
 } from './directory-item.styles';
+import {}    // de importart DirectoryCategory dub directory.component, care la ridnul sau trebuie creat acolo
 
 const DirectoryItem = ({ category }) => {
   const { imageUrl, title, route } = category;
